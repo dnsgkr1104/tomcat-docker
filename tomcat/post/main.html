@@ -1,0 +1,367 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./ico/icon76_210521.png" type="image/x-icon">
+    <title>KAKAO WEBTOON</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        #wrap {
+            text-align: center;
+        }
+        #wrap-center {
+            width: 630px;
+            display: inline-block;
+        }
+
+        #top {
+            width: 630px;
+            height: 44px;
+
+        }
+        #giftbox{
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 18px;
+            width: 24px;
+            height: 24px;
+            background-image: url(./image/gift.svg);
+            background-size: 24px 24px;
+        }
+        #title {
+            position: absolute;
+            margin-top: 13.5px;
+            margin-left: 294.5px;
+            width: 41px;
+            height: 17px;
+            background-image: url(./image/title.svg);
+        }
+        #rg {
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 540px;
+            width: 24px;
+            height: 24px;
+            background-image: url(./image/rg.svg);
+        }
+        #line {
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 588px;
+            width: 24px;
+            height: 24px;
+            background-image: url(./image/line.svg);
+        }
+        #top2 {
+            width: 630px;
+            height: 44px;
+        }
+        #mid {
+            width: 630px;
+            height: 1000px;
+        }
+        #image1 {
+            position: absolute;
+            margin-left: 10px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/1.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image111 {
+            position: absolute;
+            margin-left: 10px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/111.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image2 {
+            position: absolute;
+            margin-left: 163px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/2.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+
+        }
+        #image33 {
+            position: absolute;
+            margin-left: 316px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/33.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image3 {
+            position: absolute;
+            margin-left: 316px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/3.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image4 {
+            position: absolute;
+            margin-left: 469px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/4.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image44 {
+            position: absolute;
+            margin-left: 469px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/44.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image5 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 10px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/5.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image55 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 10px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/55.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image6 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 163px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/6.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image66 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 163px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/66.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image7 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 316px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/7.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image77 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 316px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/77.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image8 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 469px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/8.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image88 {
+            position: absolute;
+            margin-top: 301px;
+            margin-left: 469px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/88.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image9 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 10px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/9.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image99 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 10px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/99.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image10 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 163px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/10.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image1010 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 163px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/1010.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image11 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 316px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/11.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image11 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 316px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/1111.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image12 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 469px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/12.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+        #image1212 {
+            position: absolute;
+            margin-top: 602px;
+            margin-left: 469px;
+            width: 149px;
+            height: 298px;
+            background-image: url(./image/1212.webp);
+            background-size: 149px 298px;
+            border-radius: 2%;
+        }
+    </style>
+</head>
+<body bgcolor='black'>
+    <div id="wrap">
+        <div id="wrap-center">
+            <div id="top">
+                <div id="giftbox">
+                </div>
+                <div id="title">
+                </div>
+                <div id="rg">
+                </div>
+                <div id="line">
+                </div>
+            </div>
+            <button type="button" onclick="location.href='#'">회원가입</button>
+            <div id="top2"></div>
+            <div id="mid">
+                <div id="image111">
+                </div>
+                <div id="image1">
+                </div>
+                <div id="image2">
+                </div>
+                <div id="image22">
+                </div>
+                <div id="image33">
+                </div>
+                <div id="image3">
+                </div>
+                <div id="image44">
+                </div>
+                <div id="image4">
+                </div>
+                <div id="image55">
+                </div>
+                <div id="image5">
+                </div>
+                <div id="image66">
+                </div>
+                <div id="image6">
+                </div>
+                <div id="image77">
+                </div>
+                <div id="image7">
+                </div>
+                <div id="image88">
+                </div>
+                <div id="image8">
+                </div>
+                <div id="image99">
+                </div>
+                <div id="image9">
+                </div>
+                <div id="image1010">
+                </div>
+                <div id="image10">
+                </div>
+                <div id="image1111">
+                </div>
+                <div id="image11">
+                </div>
+                <div id="image1212">
+                </div>
+                <div id="image12">
+                </div>
+                
+            </div>
+            <div id="bottom"></div>
+            <div id="end"></div>
+        </div>
+    </div>
+</body>
+</html>
